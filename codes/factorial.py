@@ -1,3 +1,5 @@
+# [PT-BR] 
+
 n=(input("Digite um numero para calcular seu fatorial: "))
 num=int(n)
 base=1
@@ -37,3 +39,15 @@ while base<num:
     base+=1
 
 print("=",num*conta)
+
+# *Compilation*
+#
+# Enter a number to calculate your factorial: 10
+#
+# Factorial of 10
+#
+# Usando a formula: n!= n*(n-1)*(n-2)*(n-3)* ... *3*2*1 
+#
+# 10*(10-1)*(10-2)*(10-3)*(10-4)*(10-5)*(10-6)*(10-7)*(10-8)*(10-9)=
+#
+# 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 3628800
